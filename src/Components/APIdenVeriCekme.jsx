@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./APIdenVeriCekme.css";
 
 function APIdenVeriCekme() {
   const [yukleniyor, setYukleniyor] = useState(true);
@@ -7,7 +8,7 @@ function APIdenVeriCekme() {
 
   useEffect(() => {
     async function kullanicilariGetir() {
-      await new Promise((resolve) => setTimeout(resolve, 3000));
+      await new Promise((resolve) => setTimeout(resolve, 600));
       try {
         const response = await fetch(
           "https://jsonplaceholder.typicode.com/users",

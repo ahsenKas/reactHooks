@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
+
 function useCounter(baslangicDegeri) {
   const [count, setCount] = useState(baslangicDegeri);
 
@@ -8,6 +10,7 @@ function useCounter(baslangicDegeri) {
 
   function azalt() {
     if (count <= 0) {
+      toast.error("Sayac sıfırın altına inemez");
     } else {
       setCount(count - 1);
     }

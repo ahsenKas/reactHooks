@@ -1,0 +1,45 @@
+.SayacUygulamasi {
+  background-color: #dceafe;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.SayacUygulamasi h1 {
+  color: #1d4ed8;
+  font-size: 26px;
+}
+
+.SayacUygulamasi p {
+  background-color: white;
+  color: #7c3aed;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.SayacUygulamasi button {
+  padding: 10px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.arttir {
+  background-color: green;
+}
+
+.azalt {
+  background-color: red;
+}
+
+.sifirla {
+  background-color: gray;
+}
+.SayacUygulamasi button:hover {
+  opacity: 0.8;
+}

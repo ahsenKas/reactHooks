@@ -1,0 +1,37 @@
+.KoşulluRendering {
+  background-color: #faf5ff;
+  border: 2px solid #d8b4fe;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.KoşulluRendering h1 {
+  color: #6b21a8;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.KoşulluRendering p {
+  color: #581c87;
+  background-color: white;
+  border: 1px solid #e9d5ff;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 0 0 10px;
+}
+
+.KoşulluRendering button {
+  background-color: #7e22ce;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.KoşulluRendering button:hover {
+  background-color: #6b21a8;
+}

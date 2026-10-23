@@ -1,0 +1,37 @@
+.APIdenVeriCekme {
+  background-color: #d1fae5;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.APIdenVeriCekme ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.APIdenVeriCekme li {
+  background-color: white;
+  margin: 6px 0;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.APIdenVeriCekme li p {
+  margin: 4px 0;
+}
+
+.APIdenVeriCekme li p:first-child {
+  color: #047857;
+  font-weight: bold;
+}
+
+.APIdenVeriCekme li p:last-child {
+  color: #64748b;
+}
+
+.APIdenVeriCekme > p {
+  color: #065f46;
+  font-weight: bold;
+  margin: 5px;
+}
